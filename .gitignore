@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Crucial for API keys)
+.env
+.env.*
+!.env.example
+
+# Build / Output
+dist/
+coverage/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
